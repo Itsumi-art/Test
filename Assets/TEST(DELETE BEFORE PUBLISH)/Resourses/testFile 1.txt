@@ -1,0 +1,12 @@
+narrator " This is a random line of dialogue." list(items -f long), playSong("Intro Song" -v 1)
+
+setScene("Classroom" -s 5.5)
+
+Neah as ??? " I want to say \"something\", come over here."
+Neah as ??? at 1:0 " The world is 'crazy place' sometimes."
+Neah at 0.5:0.5 as The Boy " Don't lose hope, things will get better!"
+Neah as ??? [0:Angel, 1:happy] at 0 " Thank you for doing your best - You are amazing!" PlaySong(End, -p 0.5), list(players), saveGame(1 -g all -f simple)
+
+Caleb " You are stronger than you think.{a} Keep working hard, you'll get even further than you think."
+
+Caleb " I{a} I have something I wanted to show you." playSong("A Song" -v 0.75 -p 1), setMood(chill)
